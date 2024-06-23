@@ -1,5 +1,7 @@
 <?php
 
+namespace hsnmsri\Database;
+
 /**
  * DatabaseManager Class
  *

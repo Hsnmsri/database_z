@@ -1,0 +1,19 @@
+{
+    "name": "hsnmsri/database_z",
+    "description": "A package for easy database CRUD operations",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hsnmsri\\DatabaseZ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hossein Mansouri",
+            "email": "hsnmsri82@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
