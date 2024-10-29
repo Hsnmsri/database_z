@@ -9,37 +9,37 @@ namespace hsnmsri\DatabaseZ;
  * It contains the necessary parameters for establishing a database connection
  * and can be instantiated with or without specific parameters.
  */
-class DatabaseConnection
+class DataBaseConnection
 {
     /**
-     * @var string $host The hostname or IP address of the MySQL server.
+     * @var string|null $host The hostname or IP address of the MySQL server.
      */
-    public string $host;
+    public string|null $host;
 
     /**
-     * @var string $username The username for connecting to the database.
+     * @var string|null $username The username for connecting to the database.
      */
-    public string $username;
+    public string|null $username;
 
     /**
-     * @var string $password The password for connecting to the database.
+     * @var string|null $password The password for connecting to the database.
      */
-    public string $password;
+    public string|null $password;
 
     /**
-     * @var string $database The name of the database to connect to.
+     * @var string|null $database The name of the database to connect to.
      */
-    public string $database;
+    public string|null $database;
 
     /**
-     * @var int $port The port number for connecting to the MySQL server.
+     * @var int|null $port The port number for connecting to the MySQL server.
      */
-    public int $port;
+    public int|null $port;
 
     /**
-     * @var string $socket The socket or named pipe for connecting to the MySQL server.
+     * @var string|null $socket The socket or named pipe for connecting to the MySQL server.
      */
-    public string $socket;
+    public string|null $socket;
 
     /**
      * DatabaseConnection constructor.
